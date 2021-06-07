@@ -20,11 +20,9 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.breakpoint = (window.innerWidth <= 400) ? 1 : 2;
-    console.log(this.breakpoint)
   }
 
   onResize(event) {
     this.breakpoint = (event.target.innerWidth <= 400) ? 1 : 2;
-    console.log(this.breakpoint)
   }
 }

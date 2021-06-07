@@ -2,6 +2,14 @@ mat-toolbar {
     justify-content: center;
 }
 
+.rota {
+    width: 200px;
+}
+
+#logo{
+    width: 100%;
+}
+
 .menu-button {
     text-decoration: none;
     color: #fff;
@@ -17,14 +25,5 @@ button:hover {
     padding: 16px;
     background-color: #FFF;
     text-align: -webkit-center;
-}
-
-#logo{
-    width: 100%;
-}
-
-.rota {
-
-    width: 200px;
-
+    padding-bottom: 110px;
 }
