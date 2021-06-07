@@ -1,0 +1,67 @@
+<div class="formulario-fora">
+  <div class="formulario">
+    <h1>
+      Quero ser <span class="pink">UNI</span>
+    </h1>
+    <mat-label class="paragrafoconta">Preencha seus dados para começar o processo de abertura de conta.</mat-label>
+    <form class="formulario-caixa">
+      <mat-form-field class="full-width">
+        <mat-label>Nome Completo * </mat-label>
+        <input type="string" matInput [formControl]="nomeFormControl" placeholder="Nome Completo *">
+        <mat-error *ngIf="!nomeFormControl.hasError('required')">
+          Por favor digite um nome válido
+        </mat-error>
+        <mat-error *ngIf="nomeFormControl.hasError('required')">
+          Nome é <strong>obrigatório</strong>
+        </mat-error>
+      </mat-form-field>
+    </form>
+
+    <form class="formulario-caixa">
+      <mat-form-field class="full-width">
+        <mat-label>CPF * </mat-label>
+        <input type="string" matInput [formControl]="cpfFormControl">
+        <mat-error *ngIf="cpfFormControl.hasError('length') && !cpfFormControl.hasError('required')">
+          Por favor digite um CPF válido
+        </mat-error>
+        <mat-error *ngIf="cpfFormControl.hasError('required')">
+          CPF é <strong>obrigatório</strong>
+        </mat-error>
+      </mat-form-field>
+    </form>
+
+    <form class="formulario-caixa">
+      <mat-form-field class="full-width">
+        <mat-label>E-mail * </mat-label>
+        <input type="email" matInput [formControl]="emailFormControl" placeholder="Ex. pat@example.com">
+        <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+          Por favor digite um e-mail válido
+        </mat-error>
+        <mat-error *ngIf="emailFormControl.hasError('required')">
+          E-mail é <strong>obrigatório</strong>
+        </mat-error>
+      </mat-form-field>
+    </form>
+
+    <form class="formulario-caixa">
+      <mat-form-field class="full-width">
+        <mat-label>Confirmar e-mail * </mat-label>
+        <input type="email" matInput [formControl]="emailFormControl" placeholder="Ex. pat@example.com">
+        <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+          Por favor digite um e-mail válido
+        </mat-error>
+        <mat-error *ngIf="emailFormControl.hasError('required')">
+          E-mail é <strong>obrigatório</strong>
+        </mat-error>
+      </mat-form-field>
+    </form>
+
+      <div class="formulario-button">
+        <button class="full-width" mat-raised-button color="primary">CONTINUAR</button>
+      </div>
+
+    <mat-label class="paragrafofinal">
+      Ao continuar, você permite que o banco Uni entre em contato com você pelos canais informados.
+    </mat-label>
+  </div>
+</div>

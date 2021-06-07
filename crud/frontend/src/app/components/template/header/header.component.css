@@ -1,0 +1,30 @@
+mat-toolbar {
+    justify-content: center;
+}
+
+.menu-button {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 50px;
+}
+
+button:hover {
+  background-color: #e91e63;
+
+}
+
+.content {
+    padding: 16px;
+    background-color: #FFF;
+    text-align: -webkit-center;
+}
+
+#logo{
+    width: 100%;
+}
+
+.rota {
+
+    width: 200px;
+
+}

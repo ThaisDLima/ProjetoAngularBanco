@@ -1,0 +1,176 @@
+
+mat-card{
+  max-width: 95%;
+  max-height: 90%;
+  border-radius: 15px;
+  padding: 10px;
+  
+}
+
+#card-sobre {
+    background-image: url('~src/assets/img/sobre.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .paragrafo-sobre {
+    font-size: 1.5vw;
+    text-align: left;
+    line-height: 1.5;
+    font-weight: bold;
+    
+  }
+
+  mat-card-content.banner-sobre {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    max-width: 400px;
+    float:right;
+    margin-top: 45px;
+    max-height: 80%;
+
+  }
+
+   #card-catao {
+    background-image: url('~src/assets/img/cartao.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+   }
+
+   .paragrafo-cartao {
+    font-size: 1.5vw;
+    text-align: left;
+    line-height: 1.5;
+    font-weight: bold;
+    
+   }
+
+   mat-card-content.banner-cartao {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    max-width: 400px;
+    float:right;
+    margin-top: 45px;
+    max-height: 80%;
+   }
+
+   #beneficio-food {
+    background-image: url('~src/assets/img/beneficiosfood.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+   }
+
+   .paragrafo-beneficiofood {
+    font-size: 1.5vw;
+    text-align: left;
+    line-height: 1.5;
+    font-weight: bold;
+    
+   }
+
+   mat-card-content.banner-beneficiofood {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    max-width: 400px;
+    float:right;
+    margin-top: 45px;
+    max-height: 80%;
+   }
+
+   #beneficio-bus {
+    background-image: url('~src/assets/img/beneficiosbus.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+   }
+
+   .paragrafo-beneficiobus {
+    font-size: 1.5vw;
+    text-align: left;
+    line-height: 1.5;
+    font-weight: bold;
+    
+   }
+
+   mat-card-content.banner-beneficiobus {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    max-width: 400px;
+    float:right;
+    margin-top: 45px;
+    max-height: 80%;
+   }
+
+   #beneficio-discount {
+    background-image: url('~src/assets/img/beneficiosdiscount.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center -7vw;
+   }
+
+   .paragrafo-beneficiodiscount {
+    font-size: 1.5vw;
+    text-align: left;
+    line-height: 1.5;
+    font-weight: bold;
+    
+   }
+
+   mat-card-content.banner-beneficiodiscount {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    max-width: 400px;
+    float:left;
+    margin-top: 45px;
+    max-height: 80%;
+   }
+
+   #beneficio-instalment {
+    background-image: url('~src/assets/img/beneficiosinstalments.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+   }
+
+   .paragrafo-beneficioinstalment {
+    font-size: 1.5vw;
+    text-align: left;
+    line-height: 1.5;
+    font-weight: bold;
+    
+   }
+
+   mat-card-content.banner-beneficioinstalment {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    max-width: 400px;
+    float:right;
+    margin-top: 45px;
+    max-height: 80%;
+   }
+

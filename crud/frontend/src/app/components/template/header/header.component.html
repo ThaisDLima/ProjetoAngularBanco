@@ -1,0 +1,22 @@
+<mat-toolbar>
+    <!--<button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+    </button>-->
+   
+    <a class="rota" routerLink="/">
+        <img id= "logo" src="assets\img\logoBranco.png" alt="fotodologo">
+    </a> 
+     
+    <a class="menu-button" routerLink="/formulario">
+        <button mat-button >CONTA UNI</button>
+    </a>
+    
+    <a class="menu-button" routerLink="/ajuda">
+        <button mat-button>AJUDA</button>
+    </a>
+
+ </mat-toolbar>
+ <div class="content">
+    <router-outlet></router-outlet>
+ </div>
+

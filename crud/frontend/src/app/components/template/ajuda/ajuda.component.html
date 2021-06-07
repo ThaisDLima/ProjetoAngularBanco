@@ -1,0 +1,74 @@
+<mat-accordion>
+    <div>
+        <span class="ajuda"><b>AJUDA</b></span>
+        <h2>Ficou alguma dúvida?</h2>
+        <p>Se a sua dúvida não estiver nas perguntas frequentes, fala com a gente!</p>
+    </div>
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+            <mat-panel-title class="pergunta">
+                Como faz para abrir uma conta no UNI?
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <mat-divider></mat-divider>
+        <p class="respostas">É só baixar o app do Uni no Google Play ou na App Store e fazer seu cadastro.</p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+            <mat-panel-title class="pergunta">
+                Quais os documentos necessários para abrir conta?
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <mat-divider></mat-divider>
+        <div class="respostas">
+
+           <p class="resposta-titulo"> Você vai precisar de um documento de identidade e de um comprovante de endereço no seu nome ou no nome dos
+            seus pais.</p>
+
+            <p class="resposta-titulo">Vale como documento de identidade:</p>
+
+            <p>- CNH,</p>
+            <p>- RG que tenha sido emitido a partir de 1984,</p>
+            <p>- DNI,</p>
+            <p>- Identidade Militar,</p>
+            <p>- Órgãos de classe com foto (OAB, CRM e CREA)</p>
+            <p>- RNE/RNM para estrangeiros.</p>
+
+            <p  class="resposta-titulo">Vale como comprovante de endereço:</p>
+
+            <p>- Contas de Consumo (Água, Luz, gás, telefone fixo, celular, internet, TV a cabo ou IPTU),</p>
+            <p>- Cartas enviadas pelos Bancos (Boletos, Faturas, Apólice de Seguro Vida/Automóvel),</p>
+            <p>- Correspondência ou Documento expedido por órgãos oficiais,</p>
+            <p>- Multa de Trânsito,</p>
+            <p>- IPVA,</p>
+            <p>- FGTS,</p>
+            <p>- INSS,</p>
+            <p>- Licenciamento de Veículos,</p>
+            <p>- Boleto de cobrança de mensalidade escolar,</p>
+            <p>- Fatura/demonstrativa de Plano de Saúde.</p>
+
+            <p class="resposta-titulo">Ah, a gente aceita comprovante válido por até 180 dias a partir da emissão do documento.</p>
+        </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+            <mat-panel-title class="pergunta">
+                Como faço para solicitar o cartão UNI?
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <mat-divider></mat-divider>
+        <p class="respostas">O Cartão de Crédito UNI foi desenhado para todos que desejam uma experiência mais simples e transparente para gerir os seus gastos. Nossas únicas restrições são: ter no mínimo 18 anos, ser residente do Brasil, estar com o CPF regular perante a Receita Federal e ter um smartphone compatível com os nossos aplicativos, basta solicitar o cartão via aplicativo e aguardar a análise de cadastro e de crédito.</p>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+            <mat-panel-title class="pergunta">
+                Quais as tarifas do cartão UNI?
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <mat-divider></mat-divider>
+        <p class="respostas"> Sabemos o quanto cada centavo importa na vida de um universitário, por isso o banco UNI não cobra tarifas ou anuidades para utilização do cartão.</p>
+    </mat-expansion-panel>
+</mat-accordion>
